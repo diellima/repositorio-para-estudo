@@ -1,0 +1,54 @@
+body {
+/* cor sinza no site */
+background-color: #e1e2e1;
+}
+
+.cabecalho {
+    /* no cabeçalho colocou a cor e fundo e espaço 10 px em cima e 5 na largura */
+    padding: 10px 5px;
+    background-color: #69f0ae;
+}
+
+
+.cabecalho .logo {
+    /* diplay para que eles fique na linha, pois o padrão dele e ficar um em baixo do outro */
+    display: inline-block;
+}
+
+
+
+.cabeclaho nav {
+    /* para que o menu ficasse na direita */
+    float: right;
+}
+
+
+.cabecalho nav li {
+/* para eles ficar um do lado do outro e espaço entre eles */
+    display: inline-block;
+    padding: 15px;
+}
+
+main {
+
+    background-color: white;
+    padding: 30px;
+    min-width: 320px;
+    max-width: 900px;
+    /* width: 900px; */
+    /* auto ele vai centralizar a div no meio */
+    margin: 0 auto ;
+
+}
+main .info {
+    font-size: 18px;
+}
+
+main p {
+    font-size: 16px;
+}
+
+.image img {
+
+    width: 100%;
+}
